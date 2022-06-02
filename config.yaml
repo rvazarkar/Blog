@@ -52,7 +52,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: "CptJesus's Blog"
     icon: /buddyjesus.jpg
     iconHeight: 35
 
@@ -83,6 +83,8 @@ params:
     #   url: "https://stackoverflow.com"
     - name: github
       url: "https://github.com/rvazarkar"
+    - name: rss
+      url: "/index.xml"
 
   # analytics:
   #   google:
@@ -98,7 +100,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/rvazarkar/blog/content"
+    URL: "https://github.com/rvazarkar/Blog/blob/master/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
